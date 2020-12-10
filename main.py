@@ -57,10 +57,8 @@ name_O = input("Enter 2nd player name: ")
 
 print(name_x + ": X | " + name_O + ": O")
 
-# print("Player 1 ",name_x,"[x] --- Player 2 ",name_O,"[O]\n")
 
 while (Game == Running):
-    # os.system('cls')
     DrawBoard()
 
     if (player % 2 != 0):
@@ -75,7 +73,6 @@ while (Game == Running):
         player += 1
         CheckWin()
 
-# os.system('cls')
 DrawBoard()
 if (Game == Draw):
     print("\nGame Over.\n")
